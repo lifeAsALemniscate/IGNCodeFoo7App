@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <View
+        android:id="@+id/colored_bar"
+        android:layout_width="100dp"
+        android:layout_height="3dp"
+        android:background="@color/colorAccent"
+        android:layout_gravity="right"/>
+
+    <TextView
+        android:id="@+id/favVidTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TITLE"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp">
+        <ImageView
+            android:id="@+id/favVidThumb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/media_play_btn"
+            android:layout_alignBottom="@id/favVidThumb"
+            android:layout_alignLeft="@id/favVidThumb"
+            android:paddingLeft="5dp"/>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

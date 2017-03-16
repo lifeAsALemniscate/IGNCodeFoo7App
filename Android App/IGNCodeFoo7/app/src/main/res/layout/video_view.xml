@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:color="@color/VIDEOS"
+        android:gravity="center"
+        android:text="VIDEOS"
+        android:textColor="@color/date"
+        android:textSize="25sp"
+        android:textStyle="normal|bold" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/vidContainer0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                 <ImageView
+                    android:id="@+id/thumbnail0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/media_play_btn"
+                    android:layout_alignBottom="@id/thumbnail0"
+                    android:layout_alignLeft="@id/thumbnail0"
+                    android:paddingLeft="5dp"/>
+            </RelativeLayout>
+                 <TextView
+                     android:id="@+id/title0"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:lines="2"
+                     android:maxLines="2"
+                     android:singleLine="false"
+                     android:text="TITLE"
+                     android:textColor="@android:color/background_light"
+                     android:textSize="17sp"
+                     android:textStyle="normal|bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/vidContainer1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/thumbnail1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/media_play_btn"
+                    android:layout_alignBottom="@id/thumbnail1"
+                    android:layout_alignLeft="@id/thumbnail1"
+                    android:paddingLeft="5dp"/>
+            </RelativeLayout>
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="2"
+                    android:maxLines="2"
+                    android:singleLine="false"
+                    android:text="TITLE"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="17sp"
+                    android:textStyle="normal|bold" />
+                
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/vidContainer2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/thumbnail2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/media_play_btn"
+                    android:layout_alignBottom="@id/thumbnail2"
+                    android:layout_alignLeft="@id/thumbnail2"
+                    android:paddingLeft="5dp"/>
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/title2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="2"
+                    android:maxLines="2"
+                    android:singleLine="false"
+                    android:text="TITLE"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="17sp"
+                    android:textStyle="normal|bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/vidContainer3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/thumbnail3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                   />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/media_play_btn"
+                    android:layout_alignBottom="@id/thumbnail3"
+                    android:layout_alignLeft="@id/thumbnail3"
+                    android:paddingLeft="5dp"/>
+            </RelativeLayout>
+                <TextView
+                    android:id="@+id/title3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="2"
+                    android:maxLines="2"
+                    android:singleLine="false"
+                    android:text="TITLE"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="17sp"
+                    android:textStyle="normal|bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.lemniscate.igncodefoo7.MainActivity">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/prevPage"
+        android:title="Previous"
+        android:icon="@android:drawable/ic_media_previous"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/nextPage"
+        android:title="Next"
+        android:icon="@android:drawable/ic_media_next"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/favorites"
+        android:title="Favorites"
+        android:icon="@android:drawable/ic_input_get"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+</menu>

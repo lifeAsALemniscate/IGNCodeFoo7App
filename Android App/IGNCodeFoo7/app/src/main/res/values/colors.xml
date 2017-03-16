@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#020202</color>
+    <color name="colorPrimaryDark">#171d1d</color>
+    <color name="colorAccent">#742421</color>
+    <color name ="date">#5c5c5e</color>
+    <color name="primText">#FFF</color>
+    <color name="VIDEOS">#717173</color>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primText"
+        android:text="FAVORITES"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:layout_marginTop="20sp"
+        android:background="@color/colorPrimaryDark"/>
+    <View
+        android:id="@+id/colored_bar"
+        android:layout_width="185dp"
+        android:layout_height="3dp"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="ARTICLES"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:textColor="@color/primText"
+            android:gravity="center"
+            android:layout_marginTop="3dp"/>
+
+        <TextView
+            android:text="VIDEOS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:textColor="@color/primText"
+            android:gravity="center"
+            android:layout_marginTop="3dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/articleScroll"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/artLayout"
+                android:orientation="vertical"
+                android:background="@color/colorPrimary">
+
+            </LinearLayout>
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/videoScroll"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/vidLayout"
+                android:orientation="vertical"
+                android:background="@color/colorPrimary">
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
