@@ -1,0 +1,69 @@
+﻿Building a to-scale replica of the Empire State Building to thank our dear friend King Kong for his years of service in the B-movie industry.
+
+
+
+
+To calculate the total volume of the Empire State building we need to calculate the volume of a lincoln log and then divide the volume of the Empire State building by that. Simple enough! :)
+
+
+METHOD 1:
+
+
+1. Because the Empire State building is simply a giant rectangle all we need to do is calculate the volume of a rectangle with the dimensions of the Empire State building. (I’m aware that there is an antenna but I couldn't find the dimensions for it). For this attempt I will be simplifying the problem and assuming that the length and width of the building are the same all the way up the building(they aren’t but this an estimation).
+ 
+2.From https://en.wikipedia.org/wiki/Empire_State_Building I found out that from its base to its roof it has a height of 1,250 feet (381 m) and from its base to its antenna it has a height of 1,454 feet (443.2 m). The length (east-west) is 424 ft (129.2 m) and the width (north-south) is 187 ft (57.0 m).
+
+
+        a. On WolframAlpha I input (height 381m * length 129.2m *         width 57m)
+    [http://www.wolframalpha.com/input/?i=height+of+381m+*+length+of+129.2m+*+width+of+57m]
+
+
+         b. This gave me a volume of 2.806 * 10^6 cubic meters,         so about 2,806,000 cubic meters.
+
+
+3.Finding official dimensions for Lincoln Logs was more difficult then I thought but I ended up using this guys DIY Lincoln log blog post: 
+https://makesomething.tv/how-make-lincoln-logs for the dimensions. 
+
+
+Going off of the average/medium lincoln log… each lincoln log is a basically a cylinder, with a length of 4 and 1/2 inches and a diameter of 3/4 inches.
+
+
+I used WolframAlpha
+
+
+[http://www.wolframalpha.com/input/?i=volume+of+cylinder+with+length+4.5+inches+and+diameter+of+.75inches] 
+
+
+to get the volume of the average Lincoln log and the result was 1.988 cubic inches. 
+
+
+[In order to get a more exact measurement you would also have to find the diameter of the flat sides and subtract that from the overall volume.]
+
+
+I then converted 1.988 cubic inches to meters and the resulting volume was 3.2577(10^-5)m^3 or about             
+.000032577 m^3
+
+
+5. So (volume of building/volume of legos)=(2,806,000/.00032577)=86,130,000,000m^3
+
+
+        Converted back to inches the volume of that amount of lincoln logs is
+    5,256,000,000,000,000in^3
+        
+    And then divided by the average volume of a lincoln log(1.988) which rounds to about:
+    
+    4,332,494,698 total medium sized logs to build a scale model that is really close to the dimensions of the empire state building. 
+
+
+
+
+METHOD 2:
+
+
+The Empire State Building is not a perfect rectangle, otherwise I would be able to calculate to volume very easily. After realizing this I did some research on other ways to calculate volume.It is possible to calculate volume by weight but it's dependent on the density of the materials used. I was able to find a list of the materials used from http://www.pbs.org/wgbh/buildingbig/wonder/structure/empire_state.html 
+
+
+The Empire State Building is composed of 60,000 tons of steel, 200,000 cubic feet of Indiana limestone and granite, 10 million bricks, and 730 tons of aluminum and stainless steel.
+
+
+If someone was able to find the densities of all of these materials they could do similar calculations to find the volume…possibly more accurate!
