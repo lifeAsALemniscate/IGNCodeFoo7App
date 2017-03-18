@@ -69,7 +69,9 @@ that is "resolution indapendent". I'm entirely self-taught on android programmin
   
 as bad style or in-efficient, my goal in working with IGN is to really develop myself into a good programmer by picking
   
-up good habits from some of the best in the industry.
+up good habits from some of the best in the industry. I worked really hard on the app, I even made my own thumbnail play
+
+buttons in photoshop!
 
 
 
