@@ -5,15 +5,23 @@ About Me: My skills are mostly self taught but I'm also studying to complete a B
 
 Skills:
 
-Java
-Android
-XML
-HTML
-CSS
-C
-C#
-Python
-FUN TO HANG OUT WITH :)
+Java,
+
+Android,
+
+XML,
+
+HTML,
+
+CSS,
+
+C,
+
+C#,
+
+Python,
+
+ AND ALSO FUN TO HANG OUT WITH :)
 
 Question 1:
 
