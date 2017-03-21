@@ -87,9 +87,9 @@ incase anything goes wrong on your end at the program doesn't work! https://yout
 
   I chose to program an Android app for this problem. I tested all of my designs on the Nexus 6 and forgot to build it in a way
   
-that is "resolution indapendent". I'm entirely self-taught on android programming so I understand if some of my practices come of
-  
-as bad style or in-efficient, my goal in working with IGN is to really develop myself into a good programmer by picking
+that is "resolution indapendent". I'm entirely self-taught on android programming so I understand if some of my practices come 
+
+off as bad style or in-efficient, my goal in working with IGN is to really develop myself into a good programmer by picking
   
 up good habits from some of the best in the industry. I worked really hard on the app, I even made my own thumbnail play
 
