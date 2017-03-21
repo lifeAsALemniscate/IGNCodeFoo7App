@@ -2,6 +2,19 @@
 
 About Me: My skills are mostly self taught but I'm also studying to complete a Bachelor's of Computer Science at Eastern Washington University. I have been addicted to IGN since the 7th grade. Whether it be Articles, Videos, Podcasts, Reviews.... I've spent countless hours consuming your content. There have been periods in my life when I stopped playing games....but I never stopped reading IGN. I'm someone who not only has a passion for games, but also has a passion for the games industry and it would be an honor and a childhood dream to gain some experience working in that field.
 
+
+Skills:
+
+Java
+Android
+XML
+HTML
+CSS
+C
+C#
+Python
+FUN TO HANG OUT WITH :)
+
 Question 1:
 
   This is my video intro...ign passion...thing. Sorry about the rough editing and wonky volume,
