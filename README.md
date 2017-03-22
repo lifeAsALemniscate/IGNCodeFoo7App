@@ -5,21 +5,7 @@ About Me: My skills are mostly self taught but I'm also studying to complete a B
 
 Skills:
 
-Java,
-
-Android,
-
-XML,
-
-HTML,
-
-CSS,
-
-C,
-
-C#,
-
-Python,
+Java, Android, XML, HTML, CSS, C, C#, Python,
 
  AND ALSO FUN TO HANG OUT WITH :)
 
@@ -32,9 +18,7 @@ https://www.youtube.com/watch?v=hY9-FxwavAo
 
 Question 2:
 
-  This question has its own .txt file in the repo. Not much to say about this one besides that I spent WAY more time then I should 
-  
-  have on this one. It was a fun and frustrating quesiton.
+  This question has its own .txt file in the repo. Not much to say about this one besides that I spent WAY more time then I should have on this one. It was a fun and frustrating quesiton.
 
 
 
@@ -52,7 +36,11 @@ cells in the maze have been traversed. Then, for each cell in the grid it calls 
 
 getSums begins by marking the current cell as visited in the boolean array. It then assumes that the cell will be valid, 
 
-and adds the number at the current cell to the temporary sequence array. Our base case will check to see if the sum of the 
+and adds the number at the current cell to the temporary sequence array. 
+
+
+
+Our base case will check to see if the sum of the 
 
 current sequence is equal to the area of the grid as and also whether or not the sequence has already been used. 
 
@@ -75,25 +63,25 @@ This is due to the exponential nature of the solutions relative to the size of t
 
 The greater the grid is the more recursive calls and cell traversal the program has to make. Some things could be done to make 
 
-it faster, the initial nested for loop could be changed to not even attempt to traverse cells to the left because those sequences will
+it faster, the initial nested for loop could be changed to not even attempt to traverse cells to the left because those 
 
-never yield results that arn't repeats.
+sequences will never yield results that arn't repeats.
 
 
 Question 4: (I recorded a quick video so I could show off this program on my digital portfolio that I will link here as well 
 
-incase anything goes wrong on your end at the program doesn't work! https://youtu.be/J3Iv8ZRgFeE)
+incase anything goes wrong on your end or the program doesn't work! https://youtu.be/J3Iv8ZRgFeE)
 
 
-  I chose to program an Android app for this problem. I tested all of my designs on the Nexus 6 and forgot to build it in a way
-  
-that is "resolution indapendent". I'm entirely self-taught on android programming so I understand if some of my practices come 
+  I chose to program an Android app for this problem. I tested all of my designs on the Nexus 6 and forgot to build it in a 
 
-off as bad style or in-efficient, my goal in working with IGN is to really develop myself into a good programmer by picking
-  
-up good habits from some of the best in the industry. I worked really hard on the app, I even made my own thumbnail play
+way that is "resolution indapendent". I'm entirely self-taught on android programming so I understand if some of my practices 
 
-buttons in photoshop!
+come off as bad style or in-efficient, my goal in working with IGN is to really develop myself into a good programmer by 
+
+picking up good habits from some of the best in the industry. I worked really hard on the app, I even made my own thumbnail 
+
+play buttons in photoshop!
 
 
 
