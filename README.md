@@ -7,14 +7,8 @@ Skills:
 
 Java, Android, XML, HTML, CSS, C, C#, Python,
 
- AND ALSO FUN TO HANG OUT WITH :)
 
-Question 1:
 
-  This is my video intro...ign passion...thing. Sorry about the rough editing and wonky volume,
-it was my first time editing a video like this. :)
-
-https://www.youtube.com/watch?v=hY9-FxwavAo
 
 Question 2:
 
